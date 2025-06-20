@@ -1,0 +1,54 @@
+{
+  "layout": [
+    ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "+"],
+    ["Tab","Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]", "\\"],
+    ["Caps Lock","A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "Enter"],
+    ["Shift", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/","Shift"],
+    ["Control", "Option", "Alt", "Space", "Alt Gr", "Control"]
+  ],
+  "categories": {
+    "A": "AI & Machine Learning", 
+    "B": "Biotech & HealthTech", 
+    "C": "Code & Computer Science", 
+    "D": "Development Environments",
+    "E": "Electronics & Embedded Systems", 
+    "F": "Funding & Finance", 
+    "G": "Gaming & Digital Entertainment", 
+    "H": "History of Innovation",
+    "I": "Industry Deep Dives", 
+    "J": "Job Market & Career Insights", 
+    "K": "Knowledge Systems & Education", 
+    "L": "Linux & System Administration",
+    "M": "Manufacturing & 3D Modeling", 
+    "N": "Networks & Communication Protocols", 
+    "O": "Open Source & Community Projects", 
+    "P": "Personal Productivity Tools",
+    "Q": "Quantum Computing & Emerging Tech", 
+    "R": "Research & Development", 
+    "S": "Space Technology & NewSpace", 
+    "T": "Tech Transfer & Industry Trends",
+    "U": "User Interface & Experience Design", 
+    "V": "Virtual Machines & Cloud Environments", 
+    "W": "Web Technologies & Cloud Computing", 
+    "X": "Experimental Tech & Edge Cases",
+    "Y": "Your Personal Tech Setup", 
+    "Z": "Zero-to-One Innovation Stories"
+  },
+  "video_topic": {
+    "title": "Open Source Web UI Components",
+    "keys": ["O", "S", "W", "U", "I"],
+    "sections": {
+      "O": "Building Sustainable Open Source Communities",
+      "S": "SpaceX's Approach to Reusable Web Architecture",
+      "W": "WebAssembly and Modern Frontend Frameworks",
+      "U": "Accessibility-First Design Principles",
+      "I": "Deep Dive into Component Library Ecosystems"
+    }
+  },
+  "animation": {
+    "typing_speed": 0.05,
+    "highlight_color": "#00FF88",
+    "randomness": 0.1,
+    "sound_file": "keyboard_click.wav"
+  }
+}

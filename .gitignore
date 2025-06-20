@@ -1,0 +1,3 @@
+/media
+*.example
+__pycache__
