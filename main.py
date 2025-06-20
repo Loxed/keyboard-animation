@@ -2,7 +2,7 @@ from manim import *
 import json
 import random
 
-class QWERTYKeyboard(Scene):
+class Keyboard(Scene):
     def construct(self):
         # Load configuration from the JSON file
         try:
@@ -19,8 +19,16 @@ class QWERTYKeyboard(Scene):
         # Set a pure black background
         self.camera.background_color = BLACK
 
-        # Create the keyboard using the loaded layout and categories
-        keyboard = self.create_keyboard(config["layout"], config["categories"])
+        # Get the selected layout from config
+        selected_layout = config.get("selected_layout", "qwerty_us")
+        if "layouts" in config and selected_layout in config["layouts"]:
+            layout = config["layouts"][selected_layout]
+        else:
+            # Fallback to first layout if selected layout is not found
+            layout = list(config["layouts"].values())[0] if "layouts" in config else []
+            
+        # Create the keyboard using the selected layout and categories
+        keyboard = self.create_keyboard(layout, config["categories"])
         self.add(keyboard)  # Display keyboard instantly
         self.wait(1)
 

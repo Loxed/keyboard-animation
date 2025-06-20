@@ -1,11 +1,42 @@
 {
-  "layout": [
-    ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "+"],
-    ["Tab","Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]", "\\"],
-    ["Caps Lock","A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "Enter"],
-    ["Shift", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/","Shift"],
-    ["Control", "Option", "Alt", "Space", "Alt Gr", "Control"]
-  ],
+  "selected_layout": "qwerty_uk",
+  "layouts": {
+    "qwerty_us": [
+      ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "+"],
+      ["Tab","Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]", "\\"],
+      ["Caps Lock","A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "Enter"],
+      ["Shift", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/","Shift"],
+      ["Control", "Option", "Alt", "Space", "Alt Gr", "Control"]
+    ],
+    "qwerty_uk": [
+      ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "="],
+      ["Tab","Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]"],
+      ["Caps Lock","A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "#", "Enter"],
+      ["Shift", "\\", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/","Shift"],
+      ["Control", "Win", "Alt", "Space", "Alt Gr", "Menu", "Control"]
+    ],
+    "bepo": [
+      ["$", "\"", "«", "»", "(", ")", "@", "+", "-", "/", "*", "=", "%"],
+      ["Tab","B", "É", "P", "O", "È", "!", "V", "D", "L", "J", "Z", "W"],
+      ["Caps Lock","A", "U", "I", "E", ",", "C", "T", "S", "R", "N", "M", "Enter"],
+      ["Shift", "À", "Y", "X", ".", "K", "'", "Q", "G", "H", "F", "Shift"],
+      ["Control", "Option", "Alt", "Space", "Alt Gr", "Control"]
+    ],
+    "alphabetical": [
+      ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "="],
+      ["Tab","A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"],
+      ["Caps Lock","N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Enter"],
+      ["Shift", ",", ".", "/", ";", "'", "[", "]", "\\", "`", "Shift"],
+      ["Control", "Option", "Alt", "Space", "Alt Gr", "Control"]
+    ],
+    "experimental": [
+      ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+      ["Tab","E", "T", "A", "O", "I", "N", "S", "H", "R", "D", "L"],
+      ["Caps Lock","U", "C", "M", "F", "W", "Y", "P", "G", "B", "V", "K", "Enter"],
+      ["Shift", "X", "J", "Q", "Z", ",", ".", "/", ";", "'", "Shift"],
+      ["Control", "Option", "Alt", "Space", "Alt Gr", "Control"]
+    ]
+  },
   "categories": {
     "A": "AI & Machine Learning", 
     "B": "Biotech & HealthTech", 
